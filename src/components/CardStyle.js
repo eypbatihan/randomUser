@@ -9,7 +9,7 @@ export const Container = styled.div`
 export const CardContainer = styled.div`
   width: 400px;
   background: linear-gradient(to right, #159957, #155799);
-  color: palevioletred;
+
   box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px,
     rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px,
     rgba(0, 0, 0, 0.05) 25px 25px;
@@ -68,4 +68,13 @@ export const Info = styled.div`
     width: 100%;
     text-align: center;
   }
+`;
+export const ButtonRandom = styled.button`
+  background: #159957;
+  height: 3rem;
+  width: 30rem;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0 3rem;
 `;

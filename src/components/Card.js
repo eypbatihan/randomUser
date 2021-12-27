@@ -4,7 +4,14 @@ import Button from "@mui/material/Button";
 import email from "../assests/email.svg";
 import phone from "../assests/phone.svg";
 import location from "../assests/location.svg";
-import { CardContainer, Image, Text, Container, Info } from "./CardStyle";
+import {
+  CardContainer,
+  Image,
+  Text,
+  Container,
+  Info,
+  ButtonRandom,
+} from "./CardStyle";
 
 const Card = () => {
   const [users, setUsers] = useState([]);
@@ -51,9 +58,7 @@ const Card = () => {
         </Info>
       </CardContainer>
 
-      <Button onClick={data} variant="contained">
-        Random User
-      </Button>
+      <ButtonRandom onClick={data}>Random User</ButtonRandom>
     </Container>
   );
 };
