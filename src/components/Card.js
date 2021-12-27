@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Button from "@mui/material/Button";
 import email from "../assests/email.svg";
 import phone from "../assests/phone.svg";
 import location from "../assests/location.svg";
